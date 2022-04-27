@@ -75,7 +75,7 @@ public class Adatinexcel {
 
 
 		WebElement month = base.Findelement_id("cc_exp_month");
-		base.Selectbyindex(month, 5);
+		base.Selectbyindex(month, 9);
 
 		WebElement year = base.Findelement_id("cc_exp_year");
 		base.Selectbyindex(year, 12);

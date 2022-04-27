@@ -23,6 +23,10 @@ public class Junitbase {
 		driver.get("https://adactinhotelapp.com/index.php");
 		driver.manage().window().maximize();
 	}
+	private void m1() {
+		System.out.println("ni");
+
+	}
 	
 	@AfterClass
 	public static void afterclass() {
